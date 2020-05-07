@@ -1,4 +1,4 @@
-# candy-crush
+# candy-crush tutorial followed
 Build your own CANDY CRUSH! using vanilla JavaScript, HMTL and CSS
 
 In this walkthrough, I show you how to build Candy Crush in pure JavaScript, HTML, and CSS. 
