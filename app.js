@@ -85,6 +85,9 @@ document.addEventListener('DOMContentLoaded', () => {
       let decidedColor = squares[i].style.backgroundColor
       const isBlank = squares[i].style.backgroundColor === ''
 
+      const notValid = [6, 7, 14,15,22,23,30,31,38,39,46,47,54,55]
+        if(notValid.includes(i)) continue
+     
       if (
         rowOfThree.every(
           (index) =>
